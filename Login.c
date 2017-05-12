@@ -17,7 +17,7 @@ int main() {
 	    else {
 	    	system("CLS");
 		    while(strcmp(s,sc)!=0) {
-	        printf("Ol· senhor Eduardo, digite sua senha.\n\nSenha: ");
+	        printf("Ol√° senhor Eduardo, digite sua senha.\n\nSenha: ");
 	        scanf("%s", s);
 	        if(strcmp(s,sc)==0)
 	        printf("\n\nAcesso Concedido.");
