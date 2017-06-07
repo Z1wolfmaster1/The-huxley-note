@@ -72,9 +72,9 @@ void m() {
 	for(i=1; i<=e; i++) {
 		printf("Mariana conta %d\nMariana conta %d: ", i, i);
 		for(j=1;j<=i; j++) {
-			printf("é %d, ",j);
+			printf("Ã© %d, ",j);
 		}
-		printf("é!\nAna Viva Mariana, viva a Mariana\n");
+		printf("Ã©!\nAna Viva Mariana, viva a Mariana\n");
 	}
 }
 
@@ -93,7 +93,7 @@ void login() {
 	    else {
 	    	system("CLS");
 		    while(strcmp(s,sc)!=0) {
-	        printf("Olá senhor Eduardo, digite sua senha.\n\nSenha: ");
+	        printf("OlÃ¡ senhor Eduardo, digite sua senha.\n\nSenha: ");
 	        scanf("%s", s);
 	        if(strcmp(s,sc)==0)
 	        printf("\n\nAcesso Concedido.");
